@@ -10,7 +10,7 @@ metadata:
 spec:
     ports:
       - port: 6379
-        targetPoet: 6379
+        targetPort: 6379
     selector:
         name: redis-pod
         app: demo-voting-app
